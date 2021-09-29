@@ -1,16 +1,18 @@
 #include <Virutal/Virtual.h>
 #include "VirtualReplacer.h"
 
+#if defined(INJECTION_CODE)
+
 #define OLD_STRING "This is a test string."
 #define NEW_STRING "Replaced string!"
 
-#if defined(INJECTION_CODE)
 BOOL WINAPI DllMain(HINSTANCE hinstDLL, DWORD fdwReason, LPVOID lpReserved) {
 	if (fdwReason == DLL_PROCESS_ATTACH) {
 		VirtualReplaceString(OLD_STRING, NEW_STRING);
 	}
 	return TRUE;
 }
+
 #endif
 
 void VirtualReplaceString(const char* oldString, const char* newString) {
