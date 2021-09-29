@@ -284,7 +284,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>NDEBUG;VIRTUAL_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions);INJECTION_CODE</PreprocessorDefinitions>
+      <PreprocessorDefinitions>NDEBUG;VIRTUAL_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions);INJECTION_CODE;INJECTION_CODE</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <AdditionalIncludeDirectories>$(SolutionDir)Includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
