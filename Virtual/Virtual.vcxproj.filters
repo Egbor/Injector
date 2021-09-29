@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Includes">
+      <UniqueIdentifier>{97311415-23fe-40c7-b81d-20020bb223cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{ff966236-b68f-4e6e-8ef2-07aea8ca4f47}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Virtual.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualHunkMemory.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualPage.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualReplacer.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualScanner.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="VirtualHunkMemory.h">
+      <Filter>Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualPage.h">
+      <Filter>Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualReplacer.h">
+      <Filter>Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualScanner.h">
+      <Filter>Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Virutal\Virtual.h">
+      <Filter>Includes</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
